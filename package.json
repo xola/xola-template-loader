@@ -1,0 +1,16 @@
+{
+  "name": "xola-template-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader for Xola web apps that injects convention based Nunjuck templates into views",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xola",
+  "devDependencies": {
+    "eslint": "^3.11.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
