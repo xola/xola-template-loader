@@ -21,7 +21,7 @@ module.exports = function (source) {
         callback(null, source);
       } else {
         // .njk file is present, so inject it
-        const re = /export default.*\{/;
+        const re = /export .*\{/;
         const matches = re.exec(source);
         if (matches) {
           // we are able to determine where to inject the template, so do it
