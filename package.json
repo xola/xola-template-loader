@@ -1,5 +1,5 @@
 {
-  "name": "xola-template-loader",
+  "name": "@xola/template-loader",
   "version": "0.1.0",
   "description": "Webpack loader for Xola web apps that injects convention based Nunjuck templates into views",
   "main": "index.js",
